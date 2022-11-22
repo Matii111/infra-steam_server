@@ -1,0 +1,311 @@
+header{
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    height: 100px;       
+}
+body header{
+    background-color: rgb(27, 27, 27);
+}
+/* header */
+ul{
+    margin-left: 180px;    
+}
+
+li {    
+    display:inline-block;
+    *display:inline; /*IE7*/        
+    color: rgb(104, 104, 104);   
+    padding-left: 50px;   
+    font-family: Arial, Helvetica, sans-serif;          
+}
+ul img{
+    width: 200px;
+    margin-top: 30px;
+}
+li a, a:visited, a:hover, a:active {
+    color: inherit;
+  }
+li a:hover{
+    transition: .3s ease all;
+    text-decoration: none;
+    color: white;
+}
+li a{
+    text-decoration: none;        
+}
+.selected{
+    text-decoration: underline;
+}
+/* barra home */
+body{
+    background-color: rgb(27, 27, 27);
+}
+.games{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+.gameBox{
+    width: 220px;
+    height: 330px;
+    margin: 50px;     
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 1);
+    border: 6px solid transparent;
+    border-radius: 5px;
+    background-color: #111;     
+    z-index: 1;  
+}
+.gameImage{   
+    width: 220px;
+    height: 330px;      
+    position: relative;
+    z-index: 1;  
+}
+.gameInfo{
+    width: 220px;
+    height: 330px;
+    margin-bottom: 500px; 
+    color: white;    
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;    
+    margin-left: 64px;
+    margin-top: 175px;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    background-color: rgb(27, 27, 27,0.8);        
+    align-items: center;
+
+}
+.gameInfo:hover{
+    opacity: 1;   
+    transition: .9s ease all;
+}
+.gameInfo2:hover{
+    opacity: 1;   
+    transition: .9s ease all;
+}
+.gameInfo3:hover{
+    opacity: 1;   
+    transition: .9s ease all;
+}
+.gameInfo4:hover{
+    opacity: 1;   
+    transition: .9s ease all;
+}
+.gameInfo5:hover{
+    opacity: 1;   
+    transition: .9s ease all;
+}
+.gameInfo6:hover{
+    opacity: 1;   
+    transition: .9s ease all;
+}
+
+
+.gameInfo2{
+    width: 220px;
+    height: 330px;
+    margin-bottom: 500px; 
+    color: white;    
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;    
+    margin-left: 395px;   
+    margin-top: 172px;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    background-color: rgb(27, 27, 27,0.8);        
+    align-items: center;
+}
+.gameInfo3{
+    width: 220px;
+    height: 330px;
+    margin-bottom: 500px; 
+    color: white;    
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;    
+    margin-left: 728px;   
+    margin-top: 172px;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    background-color: rgb(27, 27, 27,0.8);        
+    align-items: center;
+
+}
+.gameInfo4{
+    width: 220px;
+    height: 330px;
+    margin-bottom: 500px; 
+    color: white;    
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;    
+    margin-left:1060px;   
+    margin-top: 171px;
+    cursor: pointer;
+    display: flex;
+    background-color: rgb(27, 27, 27,0.8);        
+    align-items: center;
+    z-index: 3;
+}
+.gameInfo5{
+    width: 220px;
+    height: 330px;
+    margin-bottom: 500px; 
+    color: white;    
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;    
+    margin-left: 1392px;   
+    margin-top: 172px;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    background-color: rgb(27, 27, 27,0.8);        
+    align-items: center;
+}
+
+.gameInfo6{
+    width: 220px;
+    height: 330px;
+    margin-bottom: 500px; 
+    color: white;    
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;    
+    margin-left:1723px;   
+    margin-top: 172px;
+    cursor: pointer;
+    z-index: 3;
+    display: flex;
+    background-color: rgb(27, 27, 27,0.8);        
+    align-items: center;
+}
+.steambutton{    
+    border-radius: 2px;
+    display: block;
+    background: #6fa720;
+    background: -webkit-linear-gradient( top, #6fa720 5%, #588a1b 95%);
+    background: linear-gradient( to bottom, #6fa720 5%, #588a1b 95%);
+    background: linear-gradient( to right, #75b022 5%, #588a1b 95%);
+    z-index: 10;
+    color: white;
+}
+.steambutton:hover{
+    background: #86b347;    
+}
+.buttons{
+    display: block;
+    align-items: center;
+    margin-left: 60px;
+}
+.login{
+    padding-left: 1860px;
+}
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #181A21; 
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+    width: 90%;
+    border-radius: 2px;
+    color: #fff;
+    padding: 10px;
+    background-color: #32353c;
+    outline: none;
+    font-size: 15px;
+    grid-area: input;
+    border: 1px solid #32353c;    
+    margin: 5px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {  
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #2D73FF;  
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom:10px;
+  margin-top: 30px;
+  opacity: 0.8;
+  margin-left: 80px;
+  color: white;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #01698b;
+  top: 0;
+  margin: 0;
+  right: 0;
+  height: 1px;
+  width: 10x;  
+  padding-left: 5px;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.form-popup label{
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    color: #afafaf;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    user-select: none;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.form-popup h1{
+    color: white;
+    font-family: "Motiva Sans", Sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .055em;
+    font-weight: 200;
+    font-size: 20px;
+}
+.form-popup label[for=email]{
+    color: #2D73FF;
+}
